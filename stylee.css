@@ -1,0 +1,139 @@
+body {
+	margin: 0;
+	padding: 10;
+	font-family: 'Сomic Sans MS';
+	font-size: 18px;
+ 	background: url(images.jpg) 50% 0%
+}
+
+#IoT {
+	float: left;
+	width: 85px;
+	height: 65px;
+}
+
+
+nav {	
+	text-align: right;										
+	width: 1000px;
+	height: 65px;
+	margin: 0 auto;	
+}
+
+header {
+	background-color: #5F9EA0;
+}
+
+header ul {	
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+	
+
+header ul li {									
+	display: inline-block;
+}
+
+header ul li:hover {
+	border-bottom-width: 2px;
+	border-bottom-style: none;					
+	border-color: #B0C4DE;					
+}
+
+header ul li a {	
+	text-decoration: none;	
+	display: block;											
+	color: #000000;
+	padding: 20px 40px 20px 40px;
+}
+
+header ul li a:hover {	
+	text-decoration: none;						
+	color:#FFFAFA ;
+	text-decoration: none;
+}
+
+header ul li:hover ul {						
+	display: block;
+}
+
+header ul ul {									
+	text-align: center;
+	display: none;
+	position: absolute;
+	background-color: #5F9EA0;
+	border-top: 0;
+	margin-left: -7px;
+}
+
+header ul ul li {								
+	display: block;
+}
+
+header ul ul li a,content: {						
+	color: #000000;
+}
+
+header ul ul li a:hover{						
+	color: #FFFAFA;
+}
+#nav{
+	transition: all 4s;
+}
+
+#tilo {
+	margin: 200px 0 0px 0;
+	padding: 15px 0 15px 0;
+	background: #2F4F4F;					
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+#Osnovna_chastina {							
+	width: 960px;
+	margin: 0 auto;
+	color: #FFF5EE;
+	animation-name: shadow;
+	animation-duration: 2s; 
+}
+
+#Zagolovki {
+	font-size: 60px;
+	color:#D3D3D3;
+}
+
+#footer {
+	text-align: center;
+	bottom: 0;
+	padding: 10px 0 10px 0;
+	background-color: #a3a3a3;
+	font-size: 15px;	
+}
+
+#footer_menu {
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+}
+
+#footer a {
+	margin: 0px 2px 0px 2px;
+	color: #dbdbdb;
+}
+
+@keyframes shadow {
+from {
+	transition: all 2s;
+	margin-left: -40px;
+	height: 20px;
+	transform: rotate(0deg);
+	font-size: 1px;
+}
+50% {
+	transition: all 5s;
+	margin-left: 500px;
+	height: 200px;
+	transform: rotate(284deg);
+	font-size: 200px;
+}
+}
+
